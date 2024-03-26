@@ -1,0 +1,52 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+html {
+	scroll-behavior: smooth;
+	height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+span,
+blockquote {
+	margin: 0;
+	font-weight: normal;
+	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+
+body {
+	border: 0px;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(237, 119, 119);
+}
+
+*::-webkit-scrollbar {
+	display: none;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
