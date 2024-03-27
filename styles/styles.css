@@ -2,7 +2,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: auto;
 	height: 70vh;
 	text-align: center;
 	background-color: rgb(249, 200, 201);
@@ -16,7 +15,6 @@
 	opacity: 0;
 	animation: fadeIn 0.7s ease 0.2s forwards;
 	max-width: 100%;
-	padding: auto;
 	margin: auto;
 	color: rgb(78, 39, 38);
 	font-weight: 800;
