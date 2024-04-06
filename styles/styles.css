@@ -20,6 +20,7 @@
 	font-weight: 800;
 	font-size: calc(32px + 16 * (100vw / 480));
 	text-transform: uppercase;
+	letter-spacing: 0.1rem;
 }
 
 .time {
@@ -149,6 +150,7 @@ p.photo-text {
 	padding-left: calc(25px + 2 * (100vw / 480));
 	padding-right: calc(25px + 2 * (100vw / 480));
 	padding-bottom: calc(35px + 4 * (100vw / 480));
+	letter-spacing: 0.1rem;
 }
 
 .swiper {
